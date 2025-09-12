@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: lightblue;
+    height:200px;
+    text-align: center;
+    font-size: 96px;
+    color: brown;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+
+nav a:hover{
+    background-color: crimson;
+}
+
+section{
+    border: 1px solid gray;
+    padding: 2em;
+    margin: 2em;
+}
+
+
+footer{
+    background-color: #123456;
+    color: wheat;
+    height: 10em;
+    text-align: center;
+}
