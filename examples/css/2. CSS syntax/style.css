@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+p{
+    color: red;
+}
+
+
+.divideBy5 {
+    font-size: 20px;
+    color: green;
+}
+
+#uniqueElement{
+    font-family: ComicSansMS;
+    font-size: 30px;
+    color: pink;
+}
+
+[type="text"] {
+    background-color: lightgrey;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+p::first-line{
+    font-size: 200%;
+    color: blue;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS syntax</h1>
+    <p>
+        CSS syntax is simple. A CSS rule consists of a selector and a declaration block.
+        The selector points to the HTML element you want to style.
+        The declaration block contains one or more declarations separated by semicolons.
+        Each declaration includes a CSS property name and a value, separated by a colon.
+    </p>
+    <pre>
+        selector {
+            property: value;
+            property2: value2;
+        }
+    </pre>
+
+    <p>Example:</p>
+    <pre>
+        h1 {
+            color: blue;
+            font-size: 12px;
+        }
+    </pre>
+
+    <h2>Types of selectors:</h2>
+    <ul>
+        <li>Element selector</li>
+        <li>Class selector</li>
+        <li>ID selector</li>
+        <li>Attribute selector</li>
+        <li>Pseudo-class selector</li>
+        <li>Pseudo-element selector</li>
+    </ul>
+
+    <h3>Element selector</h3>
+    <p>An element selector selects HTML elements based on their name.</p>
+    <pre>
+        p {
+            color: red;
+        }
+    </pre>
+
+    <h3>Class selector</h3>
+    <p>A class selector selects HTML elements based on the class attribute.</p>
+    <pre>
+        .classname {
+            color: blue;
+        }
+    </pre>
+
+    <p>
+        <div>Element 1</div>
+        <div>Element 2</div>
+        <div>Element 3</div>
+        <div>Element 4</div>
+        <div class="divideBy5">Element 5</div>
+        <div>Element 6</div>
+        <div>Element 7</div>
+        <div>Element 8</div>
+        <div>Element 9</div>
+        <div class="divideBy5">Element 10</div>
+        <div>Element 11</div>
+        <div>Element 12</div>
+        <div>Element 13</div>
+        <div>Element 14</div>
+        <div class="divideBy5">Element 15</div>
+        <div>Element 16</div>
+        <div>Element 17</div>
+        <div>Element 18</div>
+        <div>Element 19</div>
+        <div class="divideBy5">Element 20</div>
+    </p>
+
+    <h3>ID selector</h3>
+    <p>An ID selector selects a single HTML element based on the id attribute.</p>
+    <pre>
+        #idname {
+            color: red;
+        }
+    </pre>
+
+    <p>
+        <div>Common Element</div>
+        <div>Common Element</div>
+        <div id="uniqueElement">This element has a unique ID.</div>
+        <div>Common Element</div>
+        <div>Common Element</div>
+    </p>
+
+    <h3>Attribute selector</h3>
+    <p>An attribute selector selects HTML elements based on the presence or value of a specific attribute.</p>
+    <pre>
+        [attribute] {
+            property: value;
+        }
+    </pre>
+
+    <p>Example:</p>
+    <pre>
+        [type="text"] {
+            border: 1px solid #ccc;
+        }
+    </pre>
+    <p>
+        <input type="text" placeholder="Text input">
+        <input type="password" placeholder="Password input">
+        <input type="email" placeholder="Email input">
+        <input type="text" placeholder="Text input 2">
+    </p>
+
+    <h3>Pseudo-class selector</h3>
+    <p>A pseudo-class selector selects HTML elements based on their state or position in the document.</p>
+    <pre>
+        selector:pseudo-class {
+            property: value;
+        }
+    </pre>
+    <p>Example:</p>
+    <pre>
+        a:hover {
+            color: red;
+        }
+    </pre>
+
+    <h3>Pseudo-element selector</h3>
+    <p>A pseudo-element selector selects a part of an HTML element.</p>
+    <pre>
+        selector::pseudo-element {
+            property: value;
+        }
+    </pre>
+    <p>Example:</p>
+    <pre>
+        p::first-line {
+            font-weight: bold;
+        }
+    </pre>
+
+    <p>
+        This is a paragraph. The first line of this paragraph will be bold because of the pseudo-element selector.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eaque neque enim dicta exercitationem, ipsum pariatur? Nesciunt numquam architecto dolore nostrum optio quam eligendi, vitae dicta excepturi delectus labore dolores corrupti repudiandae rerum rem vel tempore ipsum sunt magnam provident aspernatur tempora. Eos omnis ea voluptatem eaque voluptatum similique nostrum id hic quia consequatur velit inventore pariatur accusamus eum, sapiente officia! Quidem optio, possimus quisquam atque odit qui repellat harum eum, tempore omnis soluta. Omnis provident atque quos deleniti! Consequuntur, consectetur rerum! Recusandae laboriosam, nostrum iusto, voluptatum et fugiat nihil iste aliquam inventore quisquam, facere quibusdam? Accusamus repellendus dolore beatae iure doloremque modi delectus ipsam inventore expedita minus! Optio tempora quod odio cum ipsa voluptate et qui corporis excepturi repellendus delectus omnis at, voluptatem ducimus, pariatur, magni enim! Provident odio ipsam sequi iusto doloribus ullam vitae culpa aliquid, aperiam vero fugiat doloremque error nulla accusantium eligendi cumque soluta laboriosam. Nesciunt doloribus animi atque fuga excepturi, nihil a eveniet eligendi cum iste incidunt quae accusamus aperiam id cumque distinctio asperiores perferendis esse ducimus recusandae. Ipsa dignissimos cupiditate culpa voluptatem! Optio nostrum veritatis corrupti sapiente est doloribus molestias! Temporibus, quo. Dicta error corrupti totam, facere quasi at ipsam inventore, ullam perferendis eaque debitis velit corporis qui voluptatum, reprehenderit asperiores excepturi veniam! Suscipit magni, quos, natus dolores tempore ad architecto, dolore quam doloremque fugit ullam deleniti eum error veniam culpa dolor nostrum laboriosam! Et, quam ducimus! Reiciendis minus asperiores saepe debitis distinctio veritatis sapiente fugiat, assumenda voluptatem officia porro adipisci amet odit modi sequi odio ab voluptate iure hic error, velit eaque blanditiis ad. Deserunt similique nam, consequatur delectus, nesciunt adipisci maxime rem omnis cupiditate ullam magnam et sed. Inventore neque magni aliquid iste aperiam. Optio provident velit, hic sit, est ut corporis fuga cumque cupiditate dicta possimus vero quasi molestiae quisquam alias!
+    </p>
+</body>
+</html>
