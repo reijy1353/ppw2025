@@ -1,0 +1,42 @@
+body{
+    background-image: url(img/wallpaper.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.element{
+    border: 5px solid gray;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    font-size: 48px;
+}
+
+.just-bg-color{
+    background-color: violet;
+}
+
+.with-bg-image{
+    background-image: url(img/spoonge-bob.png);
+}
+
+.with-bg-image-repeat-x{
+    background-image: url(img/spoonge-bob.png);
+    background-repeat: repeat-x;
+}
+
+.with-bg-image-repeat-y{
+    background-image: url(img/spoonge-bob.png);
+    background-repeat: repeat-y;
+}
+
+.with-bg-image-no-repeat{
+    background-image: url(img/spoonge-bob.png);
+    background-repeat: no-repeat;
+}
+
+.with-bg-image-size-cover{
+    background-image: url(img/spoonge-bob.png);
+    background-size: cover
+}
+
