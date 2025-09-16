@@ -19,4 +19,5 @@ nav a{
     width: 10%;
     display: inline-block;
     font-size: 12px;
+    padding: 0;
 }
