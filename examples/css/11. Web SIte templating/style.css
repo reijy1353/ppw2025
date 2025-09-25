@@ -1,0 +1,61 @@
+body{
+    font-family: Epilogue, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a{
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 68px;
+    font-weight: bold;
+}
+
+header div{
+    font-size: 20px;
+}
+
+header p{
+    font-size: 17px;
+}
+
+header button{
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+}
+
+section#clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#services div{
+    text-align: center;
+    padding: 20px;
+}
